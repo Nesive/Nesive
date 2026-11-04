@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Introduction">
+  <style>
+    .line { opacity: 0; animation: fadein 1s ease forwards; }
+    @keyframes fadein { to { opacity: 1; } }
+    .blink { animation: blink 1.2s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+  </style>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#e6edf3" class="line" style="animation-delay: 0.3s">✦ 你好，我是 Nesive</text>
+  <text x="600" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" letter-spacing="2" fill="#00e5ff" class="line" style="animation-delay: 1.2s">Christian · Programmer · Music lover</text>
+  <text x="600" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#c9d1d9" class="line" style="animation-delay: 2.1s">自托管探索者 · 把服务握在自己手里 · Cloudflare 全家桶</text>
+  <text x="600" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#8b949e" class="line" style="animation-delay: 3s">开源 · 折腾 · 分享 —— 作品正在陆续整理开源中</text>
+</svg>
